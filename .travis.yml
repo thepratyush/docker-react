@@ -1,3 +1,4 @@
+language: generic
 sudo: required
 services:
   - docker
@@ -15,6 +16,9 @@ before_install:
 #adding to the top of your .travis.yml file:
 #language: generic 
 
+#older script section
+#script:
+#  - docker run pratyush/docker-react npm run test -- --coverage
+
 script:
-  - docker run pratyush/docker-react npm run test -- --coverage
-  
+  - docker run -e CI=true pratyush/docker-react npm run test
