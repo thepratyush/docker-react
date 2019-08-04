@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          My Name is Pratyush and I am an Architect, Developer and Domain Expert.
+          I am Pratyush and I am an Architect, Developer and Domain Expert.
         </a>
       </header>
     </div>
